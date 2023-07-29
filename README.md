@@ -45,7 +45,7 @@ python manage.py runserver
 
 Open your web browser and go to http://localhost:8000/ to access the application.
 Use the application to manage places on the map.
-
+try to search things like python, pune, django, etc
 ## API Endpoints
 
 The application provides RESTful API endpoints to perform CRUD operations on places:
