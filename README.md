@@ -37,11 +37,12 @@ No need of setup postgres Database
 ```bash
 git clone https://github.com/your-username/project-name.git
 ```
-install the required Python packages.
+2 . install the required Python packages.
 ``` bash
 cd project-name
 pip install -r requirements.txt
 ```
+3. runserver
 ```
 python manage.py runserver
 ```
@@ -49,7 +50,7 @@ python manage.py runserver
 Open your web browser and go to http://localhost:8000/ to access the application.
 Use the application to manage places on the map.
 
-API Endpoints
+## API Endpoints
 
 The application provides RESTful API endpoints to perform CRUD operations on places:
 ```api 
@@ -73,7 +74,7 @@ DELETE /api/places/<int:pk>/:
 ```
 Delete a specific place.
 
-Technologies Used
+## Technologies Used
 
     Django
     Django REST Framework
