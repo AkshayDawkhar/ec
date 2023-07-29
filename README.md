@@ -58,11 +58,11 @@ POST /api/places/:
 ```
 Add a new place with name, description, latitude, and longitude.
 ```
-    GET /api/places/<int:pk>/:
+GET /api/places/<int:pk>/:
 ```
 Retrieve details of a specific place.
 ```
-    PUT /api/places/<int:pk>/: 
+PUT /api/places/<int:pk>/: 
 ```
 Update details of a specific place.
 ```
